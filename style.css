@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html body {
+  font-family: "calibri", sans-serif;
+  height: auto;
+  width: 100%;
+}
+
+.head {
+  width: 100%;
+  height: 80px;
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  font-size: 48pt;
+  color: #fff;
+  font-family: "calibri", sans-serif;
+  list-style: none;
+  float: left;
+  margin-left: 80px;
+}
+.logo a {
+  color: #fff;
+}
+
+.first-bar ul {
+  list-style: none;
+  float: right;
+}
+
+.first-bar ul li {
+  float: left;
+}
+
+.first-bar ul li a {
+  display: block;
+  margin-top: 20px;
+  padding: 20px 10px;
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+}
+.second-bar {
+  width: 100%;
+  height: 50px;
+  margin-top: 80px;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+}
+.second-bar ul {
+  list-style: none;
+  float: left;
+  margin-top: -8px;
+  margin-left: 10px;
+}
+
+.second-bar ul li {
+  float: left;
+}
+
+.second-bar ul li a {
+  display: block;
+  margin: 20px 10px;
+  color: #333333;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16pt;
+}
+
+.search-bar {
+  float: right;
+  margin-top: 9px;
+}
+
+.search-bar input[type="text"] {
+  width: 174px;
+  height: 35px;
+  border: 2px solid black;
+  padding-left: 17px;
+  font-size: 10px;
+  color: lightgrey;
+  margin-right: 312px;
+  margin-bottom: 14px;
+}
+
+.text-area {
+  width: 100%;
+  height: 500px;
+  background: rgb(233, 231, 231);
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-area img {
+  width: 387px;
+  height: 218px;
+  object-fit: cover;
+  margin-top: 172px;
+  padding-right: 20px;
+}
+
+.c1 {
+  height: 500px;
+  width: 400px;
+}
+
+.c2 {
+  height: 500px;
+  width: auto;
+  padding-top: 172px;
+  font-size: 58pt;
+  color: #333333;
+  font-family: calibri;
+  text-transform: uppercase;
+  padding-right: 29px;
+}
+
+.c3 {
+  height: 500px;
+  width: 500px;
+  padding-right: 40px;
+}
+
+.container1 {
+  height: 500px;
+  width: 600px;
+  padding-top: 80px;
+
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}
+
+.column {
+  font-family: calibri;
+  font-size: 18pt;
+  color: #333333;
+}
+
+.column-text {
+  margin-top: 10px;
+  font-size: 18pt;
+}
+
+.span-h {
+  font-family: calibri;
+  font-size: 30pt;
+  color: #333333;
+  margin-top: 5px;
+  margin-left: -1px;
+}
+.cart1-box {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 27px;
+}
+
+.cart1-item {
+  height: 154px;
+  width: 198px;
+
+  padding: 20px 10px;
+}
+
+.s1 {
+  font-size: 12pt;
+  color: #333333;
+  font-family: calibri;
+  text-transform: capitalize;
+  margin-top: 3px;
+}
+#c {
+  font-size: 41pt;
+  color: #333333;
+  font-family: calibri;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.cart1-item img {
+  margin-right: 10px;
+}
+.cart2-box {
+  margin-top: 24px;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 15px;
+}
+
+.cart2-item {
+  height: 228px;
+  width: 218px;
+  background: #dbf3fa;
+  padding: 20px 10px;
+}
+
+.s2 {
+  font-size: 20pt;
+  color: #333333;
+  font-family: calibri;
+  text-transform: capitalize;
+  margin-top: 3px;
+  margin-left: 19px;
+}
+
+.cart2-item img {
+  display: block;
+  margin-top: -18px;
+  margin-left: -7px;
+  margin-right: 67px;
+  height: 192px;
+  width: 212px;
+}
+
+footer {
+  width: 100%;
+  background: #131a22;
+
+  margin-top: 100px;
+  height: 400px;
+}
+
+.footer-container {
+  margin-top: -160px;
+
+  padding: 40px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-menu ul li a {
+  font-size: 14pt;
+  color: #fff;
+  font-family: calibri;
+  text-transform: capitalize;
+  display: block;
+  padding-top: 8px;
+}
+
+.brand-tags {
+  margin-top: 100px;
+  height: 200px;
+  width: 100%;
+}
+
+.collection {
+  padding-left: 68px;
+}
+
+.collection a {
+  font-size: 14pt;
+  color: #333333;
+  margin-left: 10px;
+}
